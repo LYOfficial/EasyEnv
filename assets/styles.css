@@ -11,9 +11,13 @@ body {
 
 .sidebar {
     width: 220px;
+    min-width: 220px; /* 固定最小宽度 */
     background-color: #f8f9fa;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sidebar ul {
@@ -25,6 +29,13 @@ body {
     margin-bottom: 15px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.settings-icon {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
 }
 
 .content {
@@ -71,4 +82,19 @@ h2 {
 
 .install-all-btn {
     margin-top: 20px;
+}
+
+/* Dark mode 样式 */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .content {
+    background-color: #333333;
+}
+
+body.dark-mode .sidebar {
+    background-color: #2e2e2e;
+    color: #ffffff;
 }

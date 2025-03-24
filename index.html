@@ -1,43 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Environment Installer</title>
+    <title>EasyEnv</title>
+    <!-- 使用国内 BootCDN 镜像 -->
     <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <div class="app-container">
         <div class="sidebar">
             <ul>
-                <li>首页</li>
-                <li>Node 管理</li>
-                <li>Git 管理</li>
-                <li>桌面客户端</li>
-                <li>浏览器插件</li>
+                <li data-page="home">首页</li>
+                <li data-page="mirror">镜像源管理</li>
+                <li data-page="software">软件管理</li>
+                <li data-page="about">关于</li>
             </ul>
+            <div class="settings-icon" data-page="settings">
+                <i class="fa fa-cog"></i>
+            </div>
         </div>
-        <div class="content">
-            <div class="header">
-                <h2>前端开发必备</h2>
-                <button class="btn btn-primary install-all-btn">一键安装</button>
-            </div>
-            <div class="software-grid">
-                <div class="software-item">
-                    <img src="assets/images/git.png" alt="Git">
-                    <h5>Git <span class="badge bg-success">推荐</span></h5>
-                    <p>分布式版本控制软件</p>
-                    <button class="btn btn-secondary">已安装</button>
-                </div>
-                <div class="software-item">
-                    <img src="assets/images/nodejs.png" alt="Node.js">
-                    <h5>Node.js (NVM) <span class="badge bg-success">推荐</span></h5>
-                    <p>基于 Chrome V8 引擎的 JavaScript 运行环境</p>
-                    <button class="btn btn-secondary">已安装</button>
-                </div>
-                <!-- Add more software items here -->
-            </div>
+        <div class="content" id="content">
+            <!-- 动态内容将注入这里 -->
         </div>
     </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
