@@ -1,0 +1,23 @@
+{
+  "name": "easyenv",
+  "version": "1.0.0",
+  "description": "A versatile one-click installation and deployment tool.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LYOfficial/EasyEnv.git"
+  },
+  "keywords": [],
+  "author": "LYOfficial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LYOfficial/EasyEnv/issues"
+  },
+  "homepage": "https://github.com/LYOfficial/EasyEnv#readme",
+  "dependencies": {
+    "electron": "^35.0.3"
+  }
+}
