@@ -6,9 +6,9 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/LYOfficial/EasyEnv?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/LYOfficial/EasyEnv?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="https://pic.awa.ms/f/2025/03/24/67e154d2a8e86.png" alt="EasyEnv">
 
-> 一款美观简约的Windows软件包安装器，适用于各种开发环境安装。
+> EasyEnv，一款美观简约的Windows软件包安装器，适用于各种开发环境安装。
 
 ### 调整和改进
 
