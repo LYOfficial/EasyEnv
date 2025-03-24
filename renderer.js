@@ -8,14 +8,32 @@ const pages = {
             <div class="software-item" data-software="git">
                 <img src="assets/images/git.png" alt="Git">
                 <h5>Git <span class="badge bg-success">推荐</span></h5>
-                <p>分布式版本控制软件</p>
+                <p>高效的分布式版本控制系统，助力团队协作与代码管理。</p>
                 <button class="btn btn-secondary">已安装</button>
             </div>
             <div class="software-item" data-software="nodejs">
                 <img src="assets/images/nodejs.png" alt="Node.js">
                 <h5>Node.js (NVM) <span class="badge bg-success">推荐</span></h5>
-                <p>基于 Chrome V8 引擎的 JavaScript 运行环境</p>
+                <p>基于V8引擎的JavaScript运行时，专为高效网络应用设计。</p>
                 <button class="btn btn-secondary">已安装</button>
+            </div>
+            <div class="software-item" data-software="python">
+                <img src="assets/images/python.png" alt="python">
+                <h5>Git <span class="badge bg-success">推荐</span></h5>
+                <p>强大易学的高级编程语言，广泛用于Web开发、数据科学和人工智能。</p>
+                <button class="btn btn-secondary">已安装</button>
+            </div>
+            <div class="software-item" data-software="jdk">
+                <img src="assets/images/jdk.png" alt="JDK">
+                <h5>JDK<span class="badge bg-success">推荐</span></h5>
+                <p>Java开发必备工具包，包含编译、调试和运行环境。</p>
+                <button class="btn btn-secondary">已安装</button>
+            </div>
+            <div class="software-item" data-software="php">
+                <img src="assets/images/php.png" alt="PHP">
+                <h5>PHP <span class="badge bg-success">推荐</span></h5>
+                <p>流行的服务器端脚本语言，擅长创建动态交互式网页。</p>
+                <button class="btn btn-primary">安装</button>
             </div>
         </div>
     `,
